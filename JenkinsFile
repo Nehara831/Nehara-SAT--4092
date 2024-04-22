@@ -1,0 +1,36 @@
+pipeline {
+    agent any 
+    
+    stages { 
+        stage('SCM Checkout') {
+            steps {
+                retry(3) {
+                    git branch: 'main', url: 'https://github.com/Nehara831/Nehara-S.A.T.-4092'
+                }
+            }
+        }
+        stage('Build Docker Image') {
+            steps {  
+                sh'docker build -t nehara831/airline-ticket-booking:%BUILD_NUMBER% .'
+            }
+        }
+        stage('Login to Docker Hub') {
+            steps {
+
+                withCredentials([string(credentialsId: 'dockerhub-passwd', variable: 'dockerhub')]) {
+                sh'docker login -u nehara831 -p ${dockerhub}'
+                }
+            }
+        }
+        stage('Push Image') {
+            steps {
+                sh'docker push nehara831/airline-ticket-booking:%BUILD_NUMBER%'
+            }
+        }
+    }
+    post {
+        always {
+            sh 'docker logout'
+        }
+    }
+}
