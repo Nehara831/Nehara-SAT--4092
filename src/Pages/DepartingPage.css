@@ -1,0 +1,154 @@
+
+.Label1{
+    color: var(--grey-400, #7C8DB0);
+     font-size: 20px;
+     font-family: 'Nunito Sans';
+     font-weight: '400';
+     word-wrap: 'break-word'
+    }
+.Label2{
+    color: var(--grey-400, #b4b6ba);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: '100';
+    word-wrap: 'break-word'
+    }   
+    .Label3 {
+        color: var(--grey-400, #b4b6ba);
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+        font-weight: '100';
+        word-wrap: 'break-word'
+        }  
+    
+    .DataRowPrimary,
+.DataRowSecondary {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%; 
+    GAP:50px; /* Ensures they take the full width of the parent container */
+}
+.DataRowSecondary {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%; 
+    /* Ensures they take the full width of the parent container */
+}
+    .TableFlightListVersionA {
+        width: 90%;
+        height: 80%;
+        padding: 10px;
+        background: white;
+        border-radius: 8px;
+        border: 1px #F6F6FE solid;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: inline-flex;
+       
+      }
+      
+      .FlightDataRow {
+        align-self: stretch;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: -11px;
+        padding-bottom: -4px;
+        background:white;
+        border-radius: 4px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1px;
+        display: inline-flex;
+        width:90%;
+        height: 100px;
+      }
+      
+      .DataRowCombined {
+        flex: 1 1 0;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: -15px;
+        padding-bottom: -8px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:-10px;
+        display: inline-flex;
+      }
+      
+     
+    .TextBox{
+        width:177.25px;
+        height:12px;
+    text-align: left;    }
+    .TextBox1{
+        width:177.25px;
+        height:12px;
+    text-align:center;    }
+    .TextBox2{
+        width:277.25px;
+        height:1px;
+    text-align: center;    }
+
+    .TextBox3{
+      width:190px;
+      height:12px;
+  text-align: left;    }
+      
+      .Label1 span {
+        color: var(--grey-400, #7C8DB0);
+        font-size: 18px;
+        font-family: 'Nunito Sans';
+        font-weight: 500;
+        word-wrap: break-word;
+        flex: 1 1 0;
+        text-align: right;
+      }
+      
+    
+
+/* Relative units for TextBox classes */
+.TextBox,
+.TextBox1,
+.TextBox2,
+.TextBox3 {
+    width: 100%; /* Adjusted to relative unit */
+    max-width: 200px; /* But don't exceed 200px */
+    height: auto; /* Adjusted to auto for better responsiveness */
+}
+
+/* Media Queries for different screen sizes */
+@media (min-width: 768px) {
+    .TextBox,
+    .TextBox1,
+    .TextBox2,
+    .TextBox3 {
+        width: 50%; /* On larger screens, take up 50% of the parent container's width */
+    }
+}
+
+@media (min-width: 1024px) {
+    .TextBox,
+    .TextBox1,
+    .TextBox2,
+    .TextBox3 {
+        width: 33%; /* On even larger screens, take up 33% of the parent container's width */
+    }
+}
+.Buttonstyle{
+    width: '90px';
+    height: '30px';
+    ;
+    border-radius: '4px';
+    overflow: 'hidden';
+    display: 'flex';
+    justify-content: 'flex-start';
+    align-items: 'center';
+    gap: 'px';
+    border-color: '#1513A0'; 
+  }

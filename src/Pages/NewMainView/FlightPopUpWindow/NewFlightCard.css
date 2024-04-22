@@ -1,0 +1,72 @@
+/* Add these styles to your CSS file or component */
+.ReusableCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 825px;
+    border: 2px solid #605DEC; /* Add this line to set the border color */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .CardContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .CardRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .CardLabel {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .ParallelRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .CardValue {
+    margin-left: 5px;
+  }
+  .CardTitle {
+    font-size: 1.2em; /* Increase font size for the title */
+    padding-bottom: 0px; /* Add some spacing below the title */
+  }
+  .CardTitleDivider {
+    flex-grow: 1;
+   
+
+    margin: 0 1px; /* Adjust margin as needed */
+    border: none; /* Remove default border styling */
+    border-top: 2px solid #605DEC; /* Change the color to solid #605DEC */
+  }
+
+  /* FlightCard.css */
+.TitleButtons {
+    display: flex;
+    margin-left: 158px; /* Add some spacing between buttons */
+    margin-top: 25px;
+    align-items: right; /* Vertically align the buttons */
+  }
+  
+  .TitleButtons button {
+    margin-right: 8px; /* Add some spacing between buttons */
+  }
+  
+  /* Style for the "Update Flight" button */
+  .TitleButtons button[type="primary"] {
+    background-color: #605DEC;
+    border-color: #605DEC;
+    color: #fff; /* Text color */
+  }
+  
+
+  

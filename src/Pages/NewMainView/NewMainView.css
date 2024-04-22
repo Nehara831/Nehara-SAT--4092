@@ -1,0 +1,20 @@
+/* src/components/LoginPage.css */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;  /* Fill the full viewport height */
+}
+
+.navigation-panel {
+  /* Styles for your navigation panel */
+}
+
+.background-image {
+  flex: 1;  /* Fill the remaining height */
+  background-image: url('../../asserts/MainViewBackground.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

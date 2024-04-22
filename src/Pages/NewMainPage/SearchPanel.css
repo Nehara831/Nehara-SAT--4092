@@ -1,0 +1,36 @@
+/* src/components/SearchPanel.css */
+
+.search-panel {
+    display: flex;
+    align-items: center;
+    gap: 16px;  /* Space between items */
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    width:80%;
+    height:40px;
+}
+
+.search-panel .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;  
+    padding: 0 10px;  
+}
+
+.search-panel .section .ant-select,
+.search-panel .section .ant-picker,
+.search-panel .section .ant-input-number {
+    width: 100%;
+}
+
+.search-panel .section .ant-input-number-input {
+    text-align: center;
+}
+/* In your CSS file, or a component-specific CSS file */
+.ant-picker-dropdown {
+    top: initial !important; /* Remove the 'top' property */
+    bottom: 1% !important; /* Set 'bottom' to open downward */
+  }
+  

@@ -1,0 +1,22 @@
+
+
+  .ant-table {
+    width: 100%; /* Ensure the table takes up 100% of its container */
+  }
+  
+  /* Optional: Style the table header row */
+  .ant-table-thead > tr > th {
+    background-color: #f0f0f0; /* Example background color for the header row */
+    font-weight: bold;
+  }
+  
+  /* Optional: Style the table rows */
+  .ant-table-tbody > tr > td {
+    border-bottom: 1px solid #8b3535; /* Add a border between rows */
+  }
+  
+  /* Optional: Style the table cell content */
+  .ant-table-cell {
+    padding: 8px 16px; /* Adjust cell padding as needed */
+    text-align: left; /* Align cell content to the left */
+  }

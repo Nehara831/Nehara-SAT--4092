@@ -1,0 +1,92 @@
+
+
+ 
+  .col-form-label {
+    text-align: right;
+  }
+  
+  .Form {
+    position: fixed;
+    height:480px;  /* Adjusted height */
+    width: 400px;   /* Adjusted width */
+    padding: 20px;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #CBD4E6;
+    box-shadow: 0px 12px 24px 0px rgba(27, 59, 119, 0.05), 0px 24px 60px 0px rgba(6, 47, 125, 0.05),
+      0px 2px 4px 0px rgba(7, 4, 146, 0.10);
+    z-index: 2;
+    
+  }
+
+  
+  @media (min-width: 1200px) {
+    .Form {
+      width: 30%;  
+      height: 70%; 
+      padding: 40px;  /* Optionally increase padding */
+    }
+  }
+  @media (min-width: 600px) {
+    .login-modal {
+      width: 450px;
+      height: 380px;
+    }
+  }
+  
+  .SignUplabel{
+  
+color: '#605DEC';
+font-size: 20px; /* Added unit */
+line-height: 1.5;
+ font-family: 'Nunito Sans';
+ font-weight: '700';
+ word-wrap: 'break-word';
+ 
+  }
+.Imag{
+  flex-direction: row;
+  display: inline-flex;
+
+  width: 80%;
+ 
+ 
+  
+}
+
+/* Add this to your CSS file */
+.FormHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  
+  padding-bottom: 10px;
+  
+}
+
+
+
+.CloseButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+ 
+}
+
+
+
+.formContainer {
+  max-width:100%;
+  max-height: 100%;
+}
+
+/* Additional styling for the form elements */
+.formContainer label {
+  /* Your label styling here */
+  font-size: 14px;
+}
+

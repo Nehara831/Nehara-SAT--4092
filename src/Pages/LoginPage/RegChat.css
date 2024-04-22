@@ -1,0 +1,85 @@
+PassengerInformationForm.css
+.header {
+    padding: 20px;
+    background-color: #605DEC;
+   
+    
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .form-container {
+    padding: 2px;
+   
+    height: 1200px;
+  }
+  
+  .button {
+    background-color: #605DEC;
+    width: 120px;
+  }
+  
+  .button-spacing {
+    margin-left: 10px;
+    color: white;
+  }
+
+  .passenger-Form{
+    margin-left: 10px;
+    gap:210px;
+    
+  }
+  
+  .horizontal-fields {
+    display: flex;
+    gap: 10px; 
+    
+   
+
+    
+   
+  }
+  
+  .textbox {
+    max-width: 150px;
+     font-size: 1px;  
+  }
+  .textbox-large {
+    max-width: 800px;
+    margin-bottom: 10px;
+     }
+  .textbox-middle {
+    width: 400px;
+  }
+  .header2 {
+    color: #6E7491;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-top:20px;
+    
+}
+.horizontal-fields2 {
+    display: flex;
+    gap: 00px;
+    padding-top: 20px; 
+.button-spacing {
+    margin-left: 60px; 
+}}
+
+.header11{
+    
+    font-size:25px;
+}
+
+.Outer {
+  margin-left: 180px;
+  width: 800px;
+ padding:20px;
+  gap: 20px;
+  border: 2px solid #bfbaba; /* Add a 2px solid black border */
+}

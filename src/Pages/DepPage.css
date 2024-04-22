@@ -1,0 +1,13 @@
+.DepStyle{
+    display: flex;
+width: 150px;
+height:50%;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+flex-shrink: 0;
+gap: 3px;
+background-color: rgb(253, 250, 250);
+border-style: inherit;
+border-color: black;
+}

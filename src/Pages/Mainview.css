@@ -1,0 +1,57 @@
+.backgrnd {
+    position: relative;
+    width: 100%;
+    height: 610px;
+    flex-shrink: 0;
+    
+    border: 0px solid #230505;
+    transition: filter 0.3s ease;
+    background-attachment: fixed;
+    
+    
+}
+
+.backgroundImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(1.5px);
+ 
+    z-index: -1; /* Place it behind other content */
+}
+
+.searchContainer {
+    position: absolute;
+    top: 270px;
+    left: 110px;
+    width: 100%;
+    
+}
+
+.mainView{
+    width: 100%;
+    height: 630px;
+    
+    background: url('../asserts/Hero4.png');
+    
+    align-items: center;
+    
+    gap:1px;
+   
+
+}
+
+.mainViewNav{
+    padding: 0px 24px;
+    width: 100%;
+    height:60px;
+    
+    background-color:var(--true-white, #ffffff);
+    
+
+
+
+
+}

@@ -1,0 +1,19 @@
+/* SeatBookingPage.css */
+
+.seatBookingPage {
+    display: flex;
+    height: 100vh;
+}
+
+.leftSide {
+    flex: 1;
+    border-right: 1px solid #ddd;
+}
+
+.rightSide {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

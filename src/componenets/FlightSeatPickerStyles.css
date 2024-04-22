@@ -1,0 +1,76 @@
+/* styles.css */
+.square-button {
+    width: 22px !important;
+    height: 22px !important;
+    padding: 0 !important;
+    min-width: 22px !important;
+}
+/* styles.css */
+
+.custom-bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.custom-bullets li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.custom-bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #605DEC;
+    border-radius: 50%;
+}
+.business-bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.business-bullets li {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.business-bullets li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #5CD6C0;
+    border-radius: 50%;
+}
+.seatBookingPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; /* Aligns items at the top */
+    padding-top: 20px; /* Optional: Adds some space at the top */
+}
+
+.rightSide {
+    width: 50%; /* Adjust width as necessary */
+    /* Removes any margin or padding */
+    margin: 0;
+    padding-top: 80px;
+}
+
+/* Adjusts the size of the bullets */
+.custom-bullets li,
+.business-bullets li {
+    font-size: 0.8rem;
+}
+
+/* Other styles */
+/* ... */

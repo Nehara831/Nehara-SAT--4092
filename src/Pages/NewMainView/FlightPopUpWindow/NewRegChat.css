@@ -1,0 +1,76 @@
+/* PassengerInformationForm.css */
+.header {
+    padding: 20px;
+    background-color: #605DEC;
+    font-size: 10px;
+    
+  }
+  
+  .header h1 {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .form-container {
+    padding: 20px;
+    color: rgb(103, 34, 34);
+    height: 100px;
+  }
+  
+  .button {
+    background-color: #605DEC;
+    width: 120px;
+  }
+  
+  .button-spacing {
+    margin-left: 10px;
+    color: white;
+  }
+
+  .passenger-Form{
+    margin-left: 10px;
+    
+  }
+  
+  .horizontal-fields {
+    display: flex;
+    gap: 10px; 
+    
+    
+
+    
+    /* Adjust the gap between fields as needed */
+  }
+  
+  .textbox {
+    max-width: 150px;
+    font-size: 1px; /* Set the maximum width for the text boxes */
+  }
+  .textbox-large {
+    width: 400px;
+    height:4px /* Set the maximum width for the text boxes */
+  }
+  .textbox-middle {
+    width: 400px; /* Set the maximum width for the text boxes */
+  }
+  .header2 {
+    color: #6E7491;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+    font-size: 13px;
+}
+.horizontal-fields2 {
+    display: flex;
+    gap: 00px;
+    padding-top: 20px; /* Adjust this value to increase or decrease the spacing */
+}
+.button-spacing {
+    margin-left: 60px; /* Adjust this value to increase or decrease the spacing */
+}
+
+.header11{
+    color: #3e3d54;
+    font-size:20px;
+}
